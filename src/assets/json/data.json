@@ -1,44 +1,90 @@
-{
-    "_id": {
-        "$oid": "63b42fab0e2370495231d1a2"
-    },
-    "status": null,
-    "type": null,
-    "message": "Stale update identified for spone_trade_history, trace id is dev.trade-ingestion-service.private.athena-trade:2:1655580@2023-01-03-13:37:02.202+0000",
-    "additionalInfo": {
-        "messageKey": "abc",
-        "partition": "2",
-        "offset": "1655580",
-        "kafkaData": "Topic: dev.trade-ingestion-service.private.athena-trade, Partition: 2, Offset: 1,655,580",
-        "exceptionTimestamp": "2023-01-03T13:37:22.927573Z[Europe/London]",
-        "errorCode": "PERSISTENCE-PROC-0001",
-        "topic": "dev.trade-ingestion-service.private.athena-trade",
-        "applicationId": "data-management-service-trade",
-        "messageTimestamp": "2023-01-03T13:37:02.202Z[Europe/London]"
-    },
-    "traceId": "dev.trade-ingestion-service.private.athena-trade:2:1655580@2023-01-03-13:37:02.202+0000",
-    "msgContext": {
-        "appId": "data-management-service-exceptions",
-        "taskId": {
-            "partition": {
-                "$numberInt": "0"
+[
+    {
+        "_id": {
+            "$oid": "63b42fab0e2370495231d1a2"
+        },
+        "status": null,
+        "type": null,
+        "message": "Stale update identified for spone_trade_history, trace id is dev.trade-ingestion-service.private.athena-trade:2:1655580@2023-01-03-13:37:02.202+0000",
+        "additionalInfo": {
+            "messageKey": "abc",
+            "partition": "2",
+            "offset": "1655580",
+            "kafkaData": "Topic: dev.trade-ingestion-service.private.athena-trade, Partition: 2, Offset: 1,655,580",
+            "exceptionTimestamp": "2023-01-03T13:37:22.927573Z[Europe/London]",
+            "errorCode": "PERSISTENCE-PROC-0001",
+            "topic": "dev.trade-ingestion-service.private.athena-trade",
+            "applicationId": "data-management-service-trade",
+            "messageTimestamp": "2023-01-03T13:37:02.202Z[Europe/London]"
+        },
+        "traceId": "dev.trade-ingestion-service.private.athena-trade:2:1655580@2023-01-03-13:37:02.202+0000",
+        "msgContext": {
+            "appId": "data-management-service-exceptions",
+            "taskId": {
+                "partition": {
+                    "$numberInt": "0"
+                },
+                "topicGroupId": {
+                    "$numberInt": "0"
+                }
             },
-            "topicGroupId": {
-                "$numberInt": "0"
+            "topic": "dev-spone-exceptions",
+            "partition": "0",
+            "offset": "1926489",
+            "messageTimestamp": {
+                "$date": {
+                    "$numberLong": "1672753042927"
+                }
+            },
+            "processedTimestamp": {
+                "$date": {
+                    "$numberLong": "1672753067646"
+                }
             }
+        }
+    }, 
+        {
+        "_id": {
+            "$oid": "63b42fab0e2370495231d1a2"
         },
-        "topic": "dev-spone-exceptions",
-        "partition": "0",
-        "offset": "1926489",
-        "messageTimestamp": {
-            "$date": {
-                "$numberLong": "1672753042927"
-            }
+        "status": null,
+        "type": null,
+        "message": "Stale update identified for spone_trade_history, trace id is dev.trade-ingestion-service.private.athena-trade:2:1655580@2023-01-03-13:37:02.202+0000",
+        "additionalInfo": {
+            "messageKey": "abc",
+            "partition": "2",
+            "offset": "1655580",
+            "kafkaData": "Topic: dev.trade-ingestion-service.private.athena-trade, Partition: 2, Offset: 1,655,580",
+            "exceptionTimestamp": "2023-01-03T13:37:22.927573Z[Europe/London]",
+            "errorCode": "PERSISTENCE-PROC-0001",
+            "topic": "dev.trade-ingestion-service.private.athena-trade",
+            "applicationId": "data-management-service-trade",
+            "messageTimestamp": "2023-01-03T13:37:02.202Z[Europe/London]"
         },
-        "processedTimestamp": {
-            "$date": {
-                "$numberLong": "1672753067646"
+        "traceId": "dev.trade-ingestion-service.private.athena-trade:2:1655580@2023-01-03-13:37:02.202+0000",
+        "msgContext": {
+            "appId": "data-management-service-exceptions",
+            "taskId": {
+                "partition": {
+                    "$numberInt": "0"
+                },
+                "topicGroupId": {
+                    "$numberInt": "0"
+                }
+            },
+            "topic": "dev-spone-exceptions",
+            "partition": "0",
+            "offset": "1926489",
+            "messageTimestamp": {
+                "$date": {
+                    "$numberLong": "1672753042927"
+                }
+            },
+            "processedTimestamp": {
+                "$date": {
+                    "$numberLong": "1672753067646"
+                }
             }
         }
     }
-}
+]

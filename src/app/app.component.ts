@@ -9,16 +9,5 @@ import data from 'src/assets/json/data.json';
 
 export class AppComponent {
   title = 'my-app';
-  appId : String; 
-  traceId : String; 
-  errorCode : String; 
-  message : String; 
-  messageTimestamp : String; 
-  constructor() {
-    this.appId = data.msgContext.appId; 
-    this.traceId = data.traceId; 
-    this.errorCode = data.additionalInfo.errorCode; 
-    this.message = data.message; 
-    this.messageTimestamp = data.additionalInfo.messageTimestamp; 
-  }
+  Data : any = data;  
 }

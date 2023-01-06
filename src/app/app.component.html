@@ -1,7 +1,5 @@
-<div class="container">  
-  <h1>Test</h1>  
-    
-  <table class="table table-striped">  
+<div class="container"> 
+  <table class="table table-hover border-secondary-subtle align-middle">  
     <thead>  
         <tr>  
           <th>appId</th>  
@@ -12,12 +10,12 @@
         </tr>  
     </thead>  
     <tbody> 
-      <tr>  
-        <td>{{appId}}</td> 
-        <td>{{traceId}}</td>  
-        <td>{{errorCode}}</td> 
-        <td>{{message}}</td>  
-        <td>{{messageTimestamp}}</td>  
+      <tr *ngFor="let data of Data">  
+        <td>{{data.msgContext.appId}}</td> 
+        <td>{{data.traceId}}</td>  
+        <td>{{data.additionalInfo.errorCode}}</td> 
+        <td>{{data.message}}</td>  
+        <td>{{data.additionalInfo.messageTimestamp}}</td>  
       </tr>  
     </tbody>  
   </table>  
