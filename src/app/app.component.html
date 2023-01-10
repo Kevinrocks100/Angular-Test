@@ -12,11 +12,11 @@
     <tbody> 
       <tr *ngFor="let data of Data">  
         <td>{{data.msgContext.appId}}</td> 
-        <td>{{data.traceId}}</td>  
+        <td><button mat-flat-button color="primary" id="logout-button" (click)="openLogoutModal()">{{data.traceId}}</button></td>  
         <td>{{data.additionalInfo.errorCode}}</td> 
         <td>{{data.message}}</td>  
         <td>{{data.additionalInfo.messageTimestamp}}</td>  
       </tr>  
     </tbody>  
   </table>  
-</div>  
+</div> 
